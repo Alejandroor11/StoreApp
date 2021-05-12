@@ -1,0 +1,36 @@
+{
+  "name": "store_test",
+  "version": "1.0.0",
+  "description": "store with graphql and nodejs",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "graphql",
+    "nodejs"
+  ],
+  "author": "Alejandro Ospina <alejo.k52012@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@graphql-tools/merge": "^6.2.13",
+    "apollo-errors": "^1.9.0",
+    "apollo-server-express": "^2.23.0",
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "graphql": "^15.5.0",
+    "graphql-import-node": "0.0.4",
+    "graphql-playground-middleware-express": "^1.7.22",
+    "graphql-tools": "^7.0.4",
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.2.5",
+    "ncp": "^2.0.0",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
